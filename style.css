@@ -4,3 +4,17 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+.header{
+    height: 300px;
+    width: 100%;
+    background-color: red;
+}
+nav{
+    display: inline-block;
+    margin: 20px;
+
+
+ }
+ nav ul{
+    font-family: cursive;
+ }
