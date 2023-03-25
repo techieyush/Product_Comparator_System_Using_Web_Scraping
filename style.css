@@ -19,6 +19,7 @@ nav{
 background-image: linear-gradient(rgb(105, 105, 177),rgb(113, 139, 113));
 
  }
- nav ul{
+ nav .logo p{
     font-family: cursive;
+    font-size: 25px;
  }
