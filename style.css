@@ -11,6 +11,7 @@ nav{
     line-height: 75px;
     padding: 0px 60px;
     position: fixed;
+    
     background-image: linear-gradient(rgb(105, 105, 177),rgb(113, 139, 113));
 
  }
@@ -34,4 +35,8 @@ nav{
   nav li a{
     font-size: 22px ;
     color: white;
+  }
+
+  nav li a:hover{
+    color:rgb(202, 115, 199);
   }
