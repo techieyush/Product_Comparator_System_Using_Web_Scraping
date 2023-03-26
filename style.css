@@ -39,4 +39,37 @@ nav{
 
   nav li a:hover{
     color:rgb(202, 115, 199);
+    transition: all 0.4s ease 0s;
+  }
+  .shoes{
+    height: 320px;
+    width: 100%;
+    background-color: rgb(42, 130, 130);
+    margin-top: ;
+   
+   
+  }
+  .cloths{
+    height: 320px;
+    width: 100%;
+    background-color: rgb(120, 165, 102);
+    margin-top: ;
+   
+
+  }
+  .accessories
+  {
+    height: 320px;
+    width: 100%;
+    background-color: rgb(119, 83, 146);
+    margin-top: ;
+   
+   
+  }
+  .watches{
+    height: 320px;
+    width: 100%;
+    background-color: rgb(83, 107, 82);
+    margin-top: ;
+
   }
