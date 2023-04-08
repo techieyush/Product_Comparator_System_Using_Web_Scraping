@@ -5,79 +5,112 @@
     text-decoration: none;
 }
 
-nav{
+.navigationBar nav{
     width: 100%;
     height: 75px;
     line-height: 75px;
-    padding: 0px 60px;
+    padding: 0px 40px;
     position: fixed;
     background-image: linear-gradient(rgb(105, 105, 177),rgb(113, 139, 113));
 
  }
- nav .logo p{
+ .navigationBar nav .logo p{
     font-family: cursive;
     font-size: 25px;
     float: left;
     color: white;
  }
-  nav ul{
+ .navigationBar nav ul{
     float: right;
     margin-right:20px ;
   }
 
-  nav ul li{
+  .navigationBar nav ul li{
     display: inline-block;
     line-height: 80px;
-    margin: 0 37px;
+    margin: 0 20px;
 
   }
-  nav li a{
+ .navigationBar  nav li a{
     font-size: 22px ;
     color: white;
   }
 
-  nav li a:hover{
+  .navigationBar .nav li a:hover{
     color:rgb(202, 115, 199);
     transition: all 0.4s ease 0s;
   }
 
-  .shoes{
+ .shoes{
     height: 320px;
-    width: 100%;
+    width: 100%;  
+    color: black;
+    padding-top: 130px;
+    /* margin-top: 50px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+  
     background-color: rgb(42, 130, 130);
     
    
    
   }
+  .BodyContent{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5px;
+    
+  }
   .cloths{
     height: 320px;
     width: 100%;
     background-color: rgb(120, 165, 102);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 130px;
+
+    flex-direction: column;
   
    
 
-  }
-  .accessories
+  } 
+   .accessories
   {
     height: 320px;
     width: 100%;
     background-color: rgb(119, 83, 146);
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 130px;
    
    
    
-  }
-  .watches{
+  } 
+ .watches{
     height: 320px;
     width: 100%;
     background-color: rgb(83, 107, 82);
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 130px;
    
 
-  }
- 
+  } 
+  
 .footer{
-  background-color: rgb(83, 123, 110);
+  background-color: black;
   padding: 60px 0 ;
   font-family: cursive;
+  color: white;
+  width: 100%;
 }
 .footer_Row{
     display: flex;
@@ -98,6 +131,7 @@ ul{
   color: rgb(161, 162, 164);
   font-size: 18px;
   margin: 5px;
+
 }
 .footer_Col h4{
   color: #777777;
@@ -106,4 +140,33 @@ ul{
   color:rgb(202, 115, 199);
   transition: all 0.4s ease 0s;
 
+}
+
+.h1_display{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  font-family: cursive;
+}
+.table{
+  font-size: 30px;
+  font-family: cursive;
+}
+.formCntrl{
+  font-size: large;
+  margin-left: 25px;
+  text-align: center;
+  align-items:center ;
+  justify-content: center;
+}
+
+td>img{
+  width: 100%;
+  height: 350px;
+  object-fit: contain;
+  margin-left: 12px;
+}
+.container{
+  margin-left: 250px;
 }
