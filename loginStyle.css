@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -58,3 +58,148 @@ body{
     z-index: 10;
     background-color: #28292d;
 }
+.Inputbox{
+    position: relative;
+    width: 300px;
+    margin-top: 40px;
+}
+.Inputbox input{
+    position: relative;
+    width: 100%;
+    padding-left: 25px 15px 15px;
+    background: transparent;
+    border: none;
+    color: #23242a;
+    font-size: 5px;
+    letter-spacing: 0.05cm;
+
+
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;*/
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: relative;
+     background-repeat: no-repeat; 
+   
+     background-size: cover; 
+    
+    background-image: url('https://st2.depositphotos.com/3077183/8124/i/950/depositphotos_81249824-stock-photo-wooden-shelves-and-stone-wall.jpg');
+    /* background-image: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg'); */
+ }
+
+.SignUpform{
+    width: 90%;
+    max-width: 380px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:#fff;
+    padding: 50px 60px 70px;
+    text-align: center;
+
+}
+.SignUpform h1{
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: rgb(94, 60, 125);
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.SignUpform h1::after{
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: rgb(94, 60, 125);
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.Inputfield{
+    background: rgb(231, 224, 238);
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+
+}
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+.Inputfield i{
+    margin-left: 15px;
+    color: black;
+}
+form p{
+    text-align: left;
+    font-size: 15px;
+}
+form p a{
+    text-decoration: none;
+
+}
+.buttonfield{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.buttonfield button{
+    flex-basis: 48%;
+    background: rgb(181, 140, 220);
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+    margin-top: 15px;
+}
+.Inputbox{
+    height: 220px;
+}
+.buttonfield button.disable{
+    color: #555;
+    background: #eaeaea;
+}
+
+
+ /* .container{
+    height: 520px;
+    width: 380px;
+    border: 2px solid black;
+    margin-top: 40px;
+   
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+
+ }
+ .container .login{
+    font-size: 25px;
+    
+}
+.container .Inputbox{
+    width: 25px;
+    height: 25px;
+    padding: 35px 35px 35px 35px;
+} */
