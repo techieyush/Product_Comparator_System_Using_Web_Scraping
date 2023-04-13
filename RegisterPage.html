@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/RegisterPage.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <title>Register form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="RegisterPage">
+            <h1 id="title">User Registration</h1>
+            <form action="./login.html">
+                <div class="Inputbox">
+                    <div class="InputField">
+                        <input type="text" value="FirstName">
+                    </div>
+                    <div class="InputField">
+                        <input type="text" value="LastName">
+                    </div>
+                    <div class="InputField">
+                        <input type="email" value="Email" required="required">
+                    </div>
+                    <div class="InputField">
+                        <input type="tel" id="phone" name="phone" value="Mobile Number" pattern="[6-9]{1}-[0-9]{9}" required="required">
+                    </div>
+                    <div class="InputField">
+                        <input type="text" value="password" required="required">
+                    </div>
+                </div>
+                <div class="buttonField">
+                    <button type="button" id="RegisterBtn">Register</button>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+    
+</body>
+</html>
