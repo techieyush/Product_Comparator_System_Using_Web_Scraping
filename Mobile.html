@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="h1_display">Mobile Comparision</h1>
+    <div class="container">
+        <div class="Colmns">
+            <table class="table">
+                <tr>
+                    <th>Select Product </th>
+                    <th>
+                        <select class="formCntrl" id="select1" onchange="item1(this.value)">
+                            <option value="0">---Select Anyone---</option>
+                        </select>
+                    </th>
+                    
+                        <th>
+                            <select class="formCntrl" id="select2" onchange="item2(this.value)">
+                                <option value="0">---Select Anyone---</option>
+                            </select>
+                        </th>
+                    
+                </tr>
+                <tr>
+                    <th>Product Image</th>
+                    <td>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/1665px-No-Image-Placeholder.svg.png" id="img1" alt="">
+                    </td>
+                    <td>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/1665px-No-Image-Placeholder.svg.png" id="img2" alt="">
+                    </td>
+                </tr>
+                <tr>
+                    <th>Product Price</th>
+                    <td id="price1"></td>
+                    <td id="price2"></td>
+                </tr>
+                <tr>
+                    <th>Product Brand</th>
+                    <td id="Pb1"></td>
+                    <td id="Pb2"></td>
+                </tr>
+
+        
+            </table>
+        </div>
+    </div>
+
+
+    
+
+</body>
+</html>
+<script src="./Script/MobileData.js"></script>
+<script>
+    for(var i=1;i<product.length;i++)
+    {
+        document.getElementById('select1').innerHTML +=`
+        <option value="${i}">${product[i].title}</option>
+        `;
+        document.getElementById('select2').innerHTML +=`
+        <option value="${i}">${product[i].title}</option>
+        `;
+    }
+
+    function item1(a)
+    {
+        var b=document.getElementById('select2').value;
+        if(a!=b)
+        {
+            document.getElementById('img1').src=product[a].image;
+            document.getElementById('price1').innerHTML=product[a].price;
+            document.getElementById('Pb1').innerHTML=product[a].brand;
+        }
+        else{
+            document.getElementById('img1').src=product[0].image;
+            document.getElementById('price1').innerHTML="Both items are Same Items";
+            document.getElementById('Pb1').innerHTML="Cannot Compare";
+        }
+        
+    }
+    function item2(a)
+    {
+        var b=document.getElementById('select1').value;
+        if(a!=b)
+        {
+            document.getElementById('img2').src=product[a].image;
+            document.getElementById('price2').innerHTML=product[a].price;
+            document.getElementById('Pb2').innerHTML=product[a].brand;
+        }
+        else{
+            document.getElementById('img2').src=product[0].image;
+            document.getElementById('price2').innerHTML="Both items are Same Items";
+            document.getElementById('Pb2').innerHTML="Cannot Compare";
+        }
+       
+    }
+</script>
