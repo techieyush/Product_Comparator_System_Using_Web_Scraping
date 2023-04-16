@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./Script/angular.min.js"></script>
+    <script src="./Script/route.min.js"></script>
+    <script src="./Modules/module1.js"></script>
+
     <title>Document</title>
     <style>
         .h1_display{
@@ -54,12 +58,12 @@
                     </td>
                 </tr>
                 <tr>
-                    <th>Product Price <br></th>
+                    <th ng-model="myControl">Product Price <br></th>
                     <td id="price1"></td>
                     <td id="price2"></td>
                 </tr>
                 <tr>
-                    <th>Product Brand</th>
+                    <th ng-model="myControl">Product Brand</th>
                     <td id="Pb1"></td>
                     <td id="Pb2"></td>
                 </tr>
@@ -69,7 +73,7 @@
                     <td id="PD2"></td>
                 </tr> -->
                 <tr>
-                    <th>Product Rating</th>
+                    <th ng-model="myControl">Product Rating</th>
                     <td id="PR1"></td>
                     <td id="PR2"></td>
                 </tr>
