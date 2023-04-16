@@ -1,7 +1,8 @@
 
-    var Laptops1= [
+     
+     var Laptops1= [
         {
-            'id':'0',
+         "id":"0",
             "title": "",
             "price": "",
             "description": "",
@@ -9,10 +10,11 @@
             "rating": "",
             "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/1665px-No-Image-Placeholder.svg.png",
             "url": "",
-            "Price_url": "",
+            "Price_url":""
+           
         },
      {
-      'id':'1',
+      "id":"1",
       "title": "HP 14s",
       "price": "37,490",
       "description": "11th Gen Intel Core i3-1115G4, 8GB RAM/256GB SSD 14-inch(35.6 cm) Micro-Edge, Anti-Glare, FHD Laptop/Alexa Built-in/Win 11/Intel UHD Graphics/Dual Speakers/MSO 2021/1.41 Kg, 14s-dy2507TU",
@@ -295,4 +297,5 @@
       
      }
     ]
+   
    
