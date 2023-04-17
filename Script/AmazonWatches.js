@@ -1,4 +1,4 @@
-var watches=[
+var watches1=[
     {
         "id":"0",
         "title": "",
@@ -15,7 +15,7 @@ var watches=[
      {
         "id":"1",
         "title":"FORSINING ",
-        "prices": "4,099",
+        "price": "4,099",
       "description": "FORSINING Analogue Men's Watch(Gold Dial Silver Colored Strap)-S1089-2",
       "brand":"FORSINING ",
       "rating": "4.0 out of 5 stars",
@@ -28,7 +28,7 @@ var watches=[
      {
         "id":"2",
         "title":"SF Venus",
-        "prices": "475",
+        "price": "475",
       "description": "Venus Digital Grey Dial Men's Watch-NL7982PP03",
       "brand":"Venus",
       "rating": "4.1 out of 5 stars",
@@ -41,7 +41,7 @@ var watches=[
      {
         "id":"3",
         "title":"Fastrack Casual Watch",
-        "prices": "1,255",
+        "price": "1,255",
       "description": "Casual Analog Dial Watch for Men",
       "brand":"Fastrack",
       "rating": "4.2 out of 5 stars",
@@ -55,7 +55,7 @@ var watches=[
      {
         "id":"4",
         "title":"Titan Youth",
-        "prices": "2,215",
+        "price": "2,215",
       "description": "Youth Analog Black Dial Women's Watch-NL2480SM02/NP2480SM02",
       "brand":" Titan",
       "rating": "4.3 out of 5 stars",
@@ -68,7 +68,7 @@ var watches=[
      {
         "id":"5",
         "title":"Titan Raga",
-        "prices": "3,870",
+        "price": "3,870",
       "description": "Raga Viva Analog Rose Gold Dial Women's Watch-NN2603WL01/NP2603WL01",
       "brand":"Titan ",
       "rating": "4.3 out of 5 stars",
@@ -81,7 +81,7 @@ var watches=[
      {
         "id":"6",
         "title":"BENYAR",
-        "prices": "3,690",
+        "price": "3,690",
       "description": "Automatic Mechanical Skeleton Leather Strap Men's Watch",
       "brand":"BENYAR",
       "rating": "4.0 out of 5 stars",
@@ -94,7 +94,7 @@ var watches=[
      {
         "id":"7",
         "title":"Fire-Boltt",
-        "prices": "1,599",
+        "price": "1,599",
       "description": "Fire-Boltt Ninja 2 SpO2 Full Touch Smartwatch with 30 Workout Modes, Heart Rate Tracking, and 100+ Cloud Watch Faces, 7 Days of extensive Battery, Dark Green (Black)",
       "brand":"Fire-Boltt",
       "rating": "4.1 out of 5 stars",
@@ -107,7 +107,7 @@ var watches=[
      {
         "id":"8",
         "title":"Fastrack Casual Analog ",
-        "prices": "1,480",
+        "price": "1,480",
       "description": "Casual Analog Silver Dial Men's Watch-NL3120SM01/NP3120SM01",
       "brand":"Fastrack",
       "rating": "4.2 out of 5 stars",
@@ -120,7 +120,7 @@ var watches=[
      {
         "id":"9",
         "title":"TIMEWEAR",
-        "prices": "489",
+        "price": "489",
       "description": "Analogue - Digital Men's Watch (Black Dial Black Colored Strap)",
       "brand":"TIMEWEAR",
       "rating": "3.8 out of 5 stars",
@@ -133,7 +133,7 @@ var watches=[
      {
         "id":"10",
         "title":"Red Light Digital",
-        "prices": "379",
+        "price": "379",
       "description": "Watch for Boys and Girl Spider Men Kids Light Glowing Watch with Music Tune and Face Cover Multicolor Led Digital Light Kid Watch (3-9 Year Red",
       "brand":"Digital",
       "rating": "3.8 out of 5 stars",
@@ -146,7 +146,7 @@ var watches=[
      {
         "id":"11",
         "title":"Fastrack Analog Black Dial ",
-        "prices": "3,400",
+        "price": "3,400",
       "description": "Analog Black Dial Men's Watch-NL3147KM01/NN3147KM01/NP3147KM01",
       "brand":"Fastrack",
       "rating": "4.2 out of 5 stars",
@@ -159,7 +159,7 @@ var watches=[
      {
         "id":"12",
         "title":"Titan Analog Dial Men's Watch",
-        "prices": "1,585",
+        "price": "1,585",
       "description": "Analog Dial Men's Watch",
       "brand":"Titan",
       "rating": "4.4 out of 5 stars",
@@ -172,7 +172,7 @@ var watches=[
      {
         "id":"13",
         "title":"Noise Twist",
-        "prices": "1,999",
+        "price": "1,999",
       
         "decsription": "Noise Newly Launched Twist Bluetooth Calling Smart Watch with 1.38\" TFT Biggest Display, Up-to 7 Days Battery, 100+ Watch Faces, IP68, Heart Rate Monitor, Sleep Tracking (Gold Wine)",
       "brand":"Noise",
@@ -186,7 +186,7 @@ var watches=[
      {
         "id":"14",
         "title":"Sonata Superfibre",
-        "prices": "1,079",
+        "price": "1,079",
       "description": "Superfibre Digital Grey Dial Men's Watch NM77034PP03 / NL77034PP03/NP77034PP03",
       "brand":"Sonata",
       "rating": "4.3 out of 5 stars",
@@ -200,7 +200,7 @@ var watches=[
      {
         "id":"15",
         "title":"LONGBO",
-        "prices": "990",
+        "price": "990",
       "description": "Master Royale Analog Watch for Men",
       "brand":"LONGBO",
       "rating": "4.0 out of 5 stars",
@@ -213,7 +213,7 @@ var watches=[
      {
         "id":"16",
         "title":"SENS NUTON 1",
-        "prices": "1,099",
+        "price": "1,099",
       
         "desciption": "SENS NUTON 1 with 1.7 IPS Display, Orbiter, 5ATM & 150+ Watch Faces & Free Additional Strap (Royal Silver)",
       "brand":"SENS NUTON",
@@ -227,7 +227,7 @@ var watches=[
      {
         "id":"17",
         "title":"Timex Analog watch",
-        "prices": "2,866",
+        "price": "2,866",
       
         "description": "Analog Black Dial Men's Watch-TW000U914",
         "brand":"Timex",
@@ -241,7 +241,7 @@ var watches=[
      {
         "id":"18",
         "title":"SF Sporty",
-        "prices": "500",
+        "price": "500",
       "description": "Sporty Analog Black Dial Men's Watch-NL7930PP01/NP7930PP01",
       "brand":"SF Sporty",
       "rating": "4.0 out of 5 stars",
@@ -253,120 +253,115 @@ var watches=[
      },
      {
         "id":"19",
-      "name": "Analogue Boy's & Girl's Watch (Multicolored Dial & Strap)",
+        "title":"SWADESHI STUFF",
+        "price": "189",
+      "description": "Analogue Boy's & Girl's Watch (Multicolored Dial & Strap)",
+      "brand":"SWADESHI Stuff",
+      "rating": "3.4 out of 5 stars",
+      "image":"https://m.media-amazon.com/images/I/71X-TsjWN+L._UX679_.jpg",
+
       "url": "https://www.amazon.in/Swadesi-Stuff-Analogue-Watch-Girls/dp/B085W1WNR5/ref=sr_1_76?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-76",
-      "prices": "189",
+     
       "prices_url": "https://www.amazon.in/Swadesi-Stuff-Analogue-Watch-Girls/dp/B085W1WNR5/ref=sr_1_76?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-76",
-      "rating": "3.4 out of 5 stars"
+      
      },
      {
         "id":"20",
-      "name": "Classics Analog White Dial Men's Watch-A300",
+        "title":"TIMEX Classics",
+        "price": "581",
+      "description": "Classics Analog White Dial Men's Watch-A300",
+      "brand":"TIMEX",
+      "rating": "4.2 out of 5 stars",
+      "image":"https://m.media-amazon.com/images/I/71rOBNFlPjL._UY679_.jpg",
       "url": "https://www.amazon.in/Timex-Classics-Analog-White-Watch-A300/dp/B0073RULNE/ref=sr_1_77?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-77",
-      "prices": "581",
+      
       "prices_url": "https://www.amazon.in/Timex-Classics-Analog-White-Watch-A300/dp/B0073RULNE/ref=sr_1_77?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-77",
-      "rating": "4.2 out of 5 stars"
+      
      },
+    
      {
         "id":"21",
-      "name": "LD-L144-BLU-CH Mesh Steel Chain Analog Wrist Watch for Women",
-      "url": "https://www.amazon.in/LOUIS-DEVIN-Analogue-Colored-LD-L144-BLU-CH/dp/B08VN2H8CV/ref=sr_1_78?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-78",
-      "prices": "289",
-      "prices_url": "https://www.amazon.in/LOUIS-DEVIN-Analogue-Colored-LD-L144-BLU-CH/dp/B08VN2H8CV/ref=sr_1_78?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-78",
-      "rating": "4.0 out of 5 stars"
+        "title":"boAt Flash ",
+        "price": "1,599",
+      "description": "boAt Flash Edition Smart Watch with Activity Tracker, Multiple Sports Modes, 1.3\" Screen, 170+ Watch Faces, Sleep Monitor, Gesture, Camera & Music Control, IP68 & 7 Days Battery Life(Galaxy Blue)",
+     "brand":"BOAT",
+      "rating": "4.0 out of 5 stars",
+      "image":"https://m.media-amazon.com/images/I/712reiBu5PL._SX679_.jpg",
+      "url": "https://www.amazon.in/boAt-Flash-Smartwatch-Activity-Resistance/dp/B0949TYBW6/ref=sr_1_79?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-79",
+      
+      "prices_url": "https://www.amazon.in/boAt-Flash-Smartwatch-Activity-Resistance/dp/B0949TYBW6/ref=sr_1_79?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-79",
+      
      },
      {
         "id":"22",
-      "name": "boAt Flash Edition Smart Watch with Activity Tracker, Multiple Sports Modes, 1.3\" Screen, 170+ Watch Faces, Sleep Monitor, Gesture, Camera & Music Control, IP68 & 7 Days Battery Life(Galaxy Blue)",
-      "url": "https://www.amazon.in/boAt-Flash-Smartwatch-Activity-Resistance/dp/B0949TYBW6/ref=sr_1_79?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-79",
-      "prices": "1,599",
-      "prices_url": "https://www.amazon.in/boAt-Flash-Smartwatch-Activity-Resistance/dp/B0949TYBW6/ref=sr_1_79?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-79",
-      "rating": "4.0 out of 5 stars"
+        "title":"Sonata Analog Watch",
+        "price": "610",
+      "description": "Analog Women's Watch",
+     "brand":"Sonata",
+     "rating": "4.3 out of 5 stars",
+     "image":"https://m.media-amazon.com/images/I/61s0wyNRs2L._UY679_.jpg",
+      "url": "https://www.amazon.in/Sonata-Analog-Silver-Womens-Watch-8170SM02/dp/B08J4FZQZ7/ref=sr_1_80?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-80",
+   
+      "prices_url": "https://www.amazon.in/Sonata-Analog-Silver-Womens-Watch-8170SM02/dp/B08J4FZQZ7/ref=sr_1_80?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-80",
+    
      },
      {
         "id":"23",
-      "name": "Analog Women's Watch",
-      "url": "https://www.amazon.in/Sonata-Analog-Silver-Womens-Watch-8170SM02/dp/B08J4FZQZ7/ref=sr_1_80?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-80",
-      "prices": "610",
-      "prices_url": "https://www.amazon.in/Sonata-Analog-Silver-Womens-Watch-8170SM02/dp/B08J4FZQZ7/ref=sr_1_80?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-80",
-      "rating": "4.3 out of 5 stars"
+        "title":"Sonata Super Fibre",
+        "price": "600",
+      "description": "Super Fibre Digital Grey Dial Men's Watch-NL87011PP04/NP87011PP04",
+      "brand":"Sonata",
+      "rating": "4.2 out of 5 stars",
+      "image":"https://m.media-amazon.com/images/I/71tdAM-NCqL._UY679_.jpg",
+      "url": "https://www.amazon.in/Sonata-Super-Fibre-Digital-NH87011PP04/dp/B00V6BICBQ/ref=sr_1_81?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-81",
+     
+      "prices_url": "https://www.amazon.in/Sonata-Super-Fibre-Digital-NH87011PP04/dp/B00V6BICBQ/ref=sr_1_81?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-81",
+     
      },
      {
         "id":"24",
-      "name": "Super Fibre Digital Grey Dial Men's Watch-NL87011PP04/NP87011PP04",
-      "url": "https://www.amazon.in/Sonata-Super-Fibre-Digital-NH87011PP04/dp/B00V6BICBQ/ref=sr_1_81?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-81",
-      "prices": "600",
-      "prices_url": "https://www.amazon.in/Sonata-Super-Fibre-Digital-NH87011PP04/dp/B00V6BICBQ/ref=sr_1_81?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-81",
-      "rating": "4.2 out of 5 stars"
+        "title":"Selloria",
+        "price": "198",
+      
+        "description": "Digital Watch Shockproof Multi-Functional Automatic Black Color Strap Waterproof Digital Sports Watch for Mens Kids Watch for Boys Watch for Men Pack of 1 Watch Water Resistance Digital Watch",
+      "brand":"selloria",
+      "rating": "3.7 out of 5 stars",
+      "image":"https://m.media-amazon.com/images/I/61YTgYOiedL._UY679_.jpg",
+        "url": "https://www.amazon.in/SELLORIA-Shockproof-Multi-Functional-Waterproof-Resistance/dp/B09CHJ5RWK/ref=sr_1_82?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-82",
+      
+      "prices_url": "https://www.amazon.in/SELLORIA-Shockproof-Multi-Functional-Waterproof-Resistance/dp/B09CHJ5RWK/ref=sr_1_82?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-82",
+     
      },
      {
         "id":"25",
-      "name": "Digital Watch Shockproof Multi-Functional Automatic Black Color Strap Waterproof Digital Sports Watch for Mens Kids Watch for Boys Watch for Men Pack of 1 Watch Water Resistance Digital Watch",
-      "url": "https://www.amazon.in/SELLORIA-Shockproof-Multi-Functional-Waterproof-Resistance/dp/B09CHJ5RWK/ref=sr_1_82?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-82",
-      "prices": "198",
-      "prices_url": "https://www.amazon.in/SELLORIA-Shockproof-Multi-Functional-Waterproof-Resistance/dp/B09CHJ5RWK/ref=sr_1_82?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-82",
-      "rating": "3.7 out of 5 stars"
+        "title":"Fastrack Unisex's  Watch",
+        "price": "636",
+      "name": "Analog White Dial Unisex's Watch-NG38021PP10W / NG38021PP10W",
+      "brand":'Fastrack',
+      "rating": "4.2 out of 5 stars",
+      "image":"https://m.media-amazon.com/images/I/91VEPukVjxL._UY679_.jpg",
+      "url": "https://www.amazon.in/Fastrack-Analog-White-Unisexs-Watch-NG38021PP10C/dp/B01KQGQMOK/ref=sr_1_83?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-83",
+      
+      "prices_url": "https://www.amazon.in/Fastrack-Analog-White-Unisexs-Watch-NG38021PP10C/dp/B01KQGQMOK/ref=sr_1_83?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-83",
+      
+     },
+     {
+        "id":"26",
+        "title":"Timex Silver Dial",
+        "price": "3,196",
+      "description": "Analog Silver Dial Men's Watch-TWEG18506",
+     "brand":"Timex",
+     "rating": "4.2 out of 5 stars",
+      "image":"https://m.media-amazon.com/images/I/61bzCB3GfEL._UY679_.jpg",
+      "url": "https://www.amazon.in/Timex-Analog-Silver-Dial-Watch-TWEG18506/dp/B08X3NPNPB/ref=sr_1_84?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-84",
+      
+      "prices_url": "https://www.amazon.in/Timex-Analog-Silver-Dial-Watch-TWEG18506/dp/B08X3NPNPB/ref=sr_1_84?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-84",
+      
      },
      {
         "id":"27",
-      "name": "Analog White Dial Unisex's Watch-NG38021PP10W / NG38021PP10W",
-      "url": "https://www.amazon.in/Fastrack-Analog-White-Unisexs-Watch-NG38021PP10C/dp/B01KQGQMOK/ref=sr_1_83?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-83",
-      "prices": "636",
-      "prices_url": "https://www.amazon.in/Fastrack-Analog-White-Unisexs-Watch-NG38021PP10C/dp/B01KQGQMOK/ref=sr_1_83?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-83",
-      "rating": "4.2 out of 5 stars"
-     },
-     {
-        "id":"28",
-      "name": "Analog Silver Dial Men's Watch-TWEG18506",
-      "url": "https://www.amazon.in/Timex-Analog-Silver-Dial-Watch-TWEG18506/dp/B08X3NPNPB/ref=sr_1_84?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-84",
-      "prices": "3,196",
-      "prices_url": "https://www.amazon.in/Timex-Analog-Silver-Dial-Watch-TWEG18506/dp/B08X3NPNPB/ref=sr_1_84?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-84",
-      "rating": "4.2 out of 5 stars"
-     },
-     {
-        "id":"29",
-      "name": "Vibes Analog Dial Men's Watch",
-      "url": "https://www.amazon.in/Fastrack-Analog-Black-Dial-Watch-38069SM01/dp/B09FJMGR7J/ref=sr_1_85?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-85",
-      "prices": "1,315",
-      "prices_url": "https://www.amazon.in/Fastrack-Analog-Black-Dial-Watch-38069SM01/dp/B09FJMGR7J/ref=sr_1_85?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-85",
-      "rating": "4.2 out of 5 stars"
-     },
-     {
-        "id":"30",
-      "name": "Digital 24 Images Projector Watch for Kids Boys Watch, Diwali Gift, Birthday Return Gift, Best Digital Toy Watch for Boy's & Girl's BG-906",
-      "url": "https://www.amazon.in/ADAMO-Digital-Girls-Barbie-Colored/dp/B0BBB9VC8X/ref=sr_1_86?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-86",
-      "prices": "289",
-      "prices_url": "https://www.amazon.in/ADAMO-Digital-Girls-Barbie-Colored/dp/B0BBB9VC8X/ref=sr_1_86?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-86",
-      "rating": "3.8 out of 5 stars"
-     },
-     {
-        "id":"31",
-      "name": "Analog Silver Dial Unisex's Watch-TW00PR230",
-      "url": "https://www.amazon.in/Timex-Analog-Silver-Unisexs-Watch-TW00PR230/dp/B07M9RNN2T/ref=sr_1_87?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-87",
-      "prices": "2,419",
-      "prices_url": "https://www.amazon.in/Timex-Analog-Silver-Unisexs-Watch-TW00PR230/dp/B07M9RNN2T/ref=sr_1_87?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-87",
-      "rating": "4.4 out of 5 stars"
-     },
-     {
-        "id":"32",
-      "name": "Analog White Dial Men's Watch-NN7954YM01W/NP7954YM01W",
-      "url": "https://www.amazon.in/Sonata-Analog-White-Dial-Watch-NK7954YM01/dp/B00HPSPBX6/ref=sr_1_88?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-88",
-      "prices": "1,199",
-      "prices_url": "https://www.amazon.in/Sonata-Analog-White-Dial-Watch-NK7954YM01/dp/B00HPSPBX6/ref=sr_1_88?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-88",
-      "rating": "4.2 out of 5 stars"
-     },
-     {
-        "id":"33",
-      "name": "Analog Boy's & Men's Watch (Brown Dial Colored Strap)",
-      "url": "https://www.amazon.in/Redux-Analogue-Brown-Watch-RWS0200S/dp/B07D9G1GHB/ref=sr_1_89?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-89",
-      "prices": "265",
-      "prices_url": "https://www.amazon.in/Redux-Analogue-Brown-Watch-RWS0200S/dp/B07D9G1GHB/ref=sr_1_89?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-89",
-      "rating": "3.4 out of 5 stars"
-     },
-     {
-        "id":"34",
         "title":"Titan Round Dial Watch ",
-        "prices": "3,516",
+        "price": "3,516",
       "description": "Men's Round Dial Watch",
       "brand":"Titan",
       "rating": "4.2 out of 5 stars",
@@ -377,9 +372,9 @@ var watches=[
       
      },
      {
-        "id":"35",
+        "id":"28",
         "title":"DIZO Watch D2 Power",
-        "prices": "1,799",
+        "price": "1,799",
       
         "description": "DIZO Watch D2 Power (by realme TechLife) –Large 1.91\" Superlight, Single Chipset Bluetooth Calling Smartwatch with Smart Swipe,150 +Stylish Watch Faces and 10 Day Battery (Classic Black)",
       "brand":"DIZO",
@@ -391,9 +386,9 @@ var watches=[
      
      },
      {
-        "id":"36",
+        "id":"29",
         "title":"LORENZ",
-        "prices": "399",
+        "price": "399",
       "description": "Analog Watch for Men | Watch for Boys",
       "brand":"LORENZ",
       "rating": "3.5 out of 5 stars",
@@ -404,9 +399,9 @@ var watches=[
       
      },
      {
-        "id":"37",
+        "id":"30",
         "title":"Boat Xtend",
-        "prices": "2,299",
+        "price": "2,299",
       "description": "boAt Xtend Smart Watch with Alexa Built-in, 1.69” HD Display, Multiple Watch Faces, Stress Monitor, HR & SpO2 Monitoring, 14 Sports Modes, Sleep Monitor, 5 ATM & 7 Days Battery Life(Deep Blue)",
       "brand":"BOAT",
       "rating": "4.2 out of 5 stars",
@@ -417,9 +412,9 @@ var watches=[
       
      },
      {
-        "id":"38",
+        "id":"31",
         "title":"Titan Karishma",
-        "prices": "2,172",
+        "price": "2,172",
       "description": "Karishma Analog Blue Dial Men's Watch-NL1774SM01/NP1774SM01",
       "brand":"Titan",
       "rating": "4.2 out of 5 stars",
@@ -430,9 +425,9 @@ var watches=[
       
      },
      {
-        "id":"39",
+        "id":"32",
         "title":"Titan Smart watch",
-        "prices": "7,646",
+        "price": "7,646",
       "description": "Smart Smartwatch with Stress & Sleep Monitor, SpO2,Women Health Monitor,5 ATM Water Resistance & Upto 14 Days Battery Life",
       "brand":"Titan",
       
@@ -444,9 +439,9 @@ var watches=[
       
      },
      {
-        "id":"40",
+        "id":"33",
       "title":"Fastrack Tees",
-      "prices": "760",
+      "price": "760",
       "description": "Tees Analog Dial Unisex-Adult Watch",
       "brand":"Fastrack",
       "rating": "4.2 out of 5 stars",
@@ -457,9 +452,9 @@ var watches=[
       
      },
      {
-        "id":"41",
+        "id":"34",
         "title":"ADAMO",
-        "prices": "289",
+        "price": "289",
       "description": "Digital 24 Images Projector Watch for Kids Boys Watch, Diwali Gift, Birthday Return Gift, Best Digital Toy Watch for Boy's & Girl's BG-906",
       "brand":"ADAMO",
       "rating": "3.8 out of 5 stars",
@@ -471,9 +466,9 @@ var watches=[
       
      },
      {
-        "id":"42",
+        "id":"35",
         "title":"Barbie Watch",
-        "prices": "189",
+        "price": "189",
       "description": "White Dial Barbie Love Watch Series Analogue Girl's Watch",
       "url": "https://www.amazon.in/SWADESI-STUFF-Barbie-Analogue-Round/dp/B07P3YJXR5/ref=sr_1_100?crid=2LCTA6OZWZZI6&keywords=watches&qid=1681533085&sprefix=watche%2Caps%2C371&sr=8-100",
       "brand":"SWADESHI STUFF",
@@ -484,9 +479,9 @@ var watches=[
      
      },
      {
-        "id":"43",
+        "id":"36",
         "title":"Fossil Tillie",
-        "prices": "5,997",
+        "price": "5,997",
         "description": "Tillie Analog White Dial Women's Watch-BQ3497",
         "brand":"Fossil",
         "rating": "4.3 out of 5 stars",
@@ -496,9 +491,9 @@ var watches=[
       
      },
      {
-        "id":"45",
+        "id":"37",
     "title":"Sonata Analog  Watch",
-      "prices": "700",
+      "price": "700",
       "description": "Analog White Dial Men's Watch-7135SL03/NP7135SL03",
       "brand":"Sonata",
       "rating": "4.2 out of 5 stars",
@@ -509,9 +504,9 @@ var watches=[
       
      },
      {
-        "id":"46",
+        "id":"38",
         "title":"Fire-Boltt Dagger",
-        "prices": "3,799",
+        "price": "3,799",
       "description": "Fire-Boltt Dagger 1.43\" AMOLED Display Smartwatch, 96% Screen to Body Ratio with Single BT Bluetooth Calling, IP68, Dual Button Technology, Rugged Build, AI Voice Assistant, Multiple Sports (Black)",
     "brand":"Fire-Boltt",
     "rating": "4.4 out of 5 stars",
@@ -522,9 +517,9 @@ var watches=[
       
      },
      {
-        "id":"47",
+        "id":"39",
         "title":"Men's Watch-TW000U933",
-        "prices": "1,999",
+        "price": "1,999",
       "description": "Analog White Dial Men's Watch-TW000U933",
       "brand":"TIMEX",
       "rating": "4.1 out of 5 stars",
@@ -536,9 +531,9 @@ var watches=[
      }
      ,
      {
-        "id":"48",
+        "id":"40",
         "title":"IMPERIOUS-The Royal",
-        "prices": "759",
+        "price": "759",
           "description": "Analogue Women's Watch (Black Dial)",
           "brand":"IMPERIOUS",
           "rating": "3.9 out of 5 stars",

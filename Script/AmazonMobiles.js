@@ -6,20 +6,15 @@ var product = [{
     "brand": "",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/1665px-No-Image-Placeholder.svg.png"
 }, 
-     {
+  
+{
       "name": "Apple iPhone 14 Pro (128 GB) - Deep Purple",
       "url": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTozNDYyMzcwMzg2NjM2MjE4OjE2ODE2NjUwMjE6c3BfYXRmX25leHQ6MjAxMTU3ODM4MTI3OTg6OjA6Og&url=%2FApple-iPhone-128GB-Deep-Purple%2Fdp%2FB0BDJ6ZMCC%2Fref%3Dsr_1_17_sspa%3Fcrid%3D4DF94DCF94WA%26keywords%3Dmobiles%26qid%3D1681665021%26refinements%3Dp_72%253A1318476031%26rnid%3D1318475031%26sprefix%3Dmobile%252Caps%252C256%26sr%3D8-17-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1",
       "price": "1,19,999",
       "price_url": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTozNDYyMzcwMzg2NjM2MjE4OjE2ODE2NjUwMjE6c3BfYXRmX25leHQ6MjAxMTU3ODM4MTI3OTg6OjA6Og&url=%2FApple-iPhone-128GB-Deep-Purple%2Fdp%2FB0BDJ6ZMCC%2Fref%3Dsr_1_17_sspa%3Fcrid%3D4DF94DCF94WA%26keywords%3Dmobiles%26qid%3D1681665021%26refinements%3Dp_72%253A1318476031%26rnid%3D1318475031%26sprefix%3Dmobile%252Caps%252C256%26sr%3D8-17-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1",
       "rating": "4.5 out of 5 stars"
      },
-     {
-      "name": "Apple iPhone 14 (128 GB) - Blue",
-      "url": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTozNDYyMzcwMzg2NjM2MjE4OjE2ODE2NjUwMjE6c3BfYXRmX25leHQ6MjAxMTEyMTEyNDc2OTg6OjA6Og&url=%2FApple-iPhone-14-128GB-Blue%2Fdp%2FB0BDK62PDX%2Fref%3Dsr_1_18_sspa%3Fcrid%3D4DF94DCF94WA%26keywords%3Dmobiles%26qid%3D1681665021%26refinements%3Dp_72%253A1318476031%26rnid%3D1318475031%26sprefix%3Dmobile%252Caps%252C256%26sr%3D8-18-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1",
-      "price": "71,999",
-      "price_url": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTozNDYyMzcwMzg2NjM2MjE4OjE2ODE2NjUwMjE6c3BfYXRmX25leHQ6MjAxMTEyMTEyNDc2OTg6OjA6Og&url=%2FApple-iPhone-14-128GB-Blue%2Fdp%2FB0BDK62PDX%2Fref%3Dsr_1_18_sspa%3Fcrid%3D4DF94DCF94WA%26keywords%3Dmobiles%26qid%3D1681665021%26refinements%3Dp_72%253A1318476031%26rnid%3D1318475031%26sprefix%3Dmobile%252Caps%252C256%26sr%3D8-18-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1",
-      "rating": "4.5 out of 5 stars"
-     },
+    
      {
       "name": "Redmi Note 11T 5G (Stardust White, 8GB RAM, 128GB ROM) | Dimensity 810 5G | 33W Pro Fast Charging | Charger Included | Additional Exchange Offers| Get 2 Months of YouTube Premium Free!",
       "url": "https://www.amazon.in/Redmi-Note-11T-5G-Dimensity/dp/B09LHX1YFX/ref=sr_1_19?crid=4DF94DCF94WA&keywords=mobiles&qid=1681665021&refinements=p_72%3A1318476031&rnid=1318475031&sprefix=mobile%2Caps%2C256&sr=8-19",
@@ -83,13 +78,7 @@ var product = [{
       "price_url": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTozNDYyMzcwMzg2NjM2MjE4OjE2ODE2NjUwMjE6c3BfbXRmOjIwMTQxMDA5ODU5Nzk4OjowOjo&url=%2FItel-6000mAh-Battery-Charging-Memory%2Fdp%2FB0BXLPY5WW%2Fref%3Dsr_1_27_sspa%3Fcrid%3D4DF94DCF94WA%26keywords%3Dmobiles%26qid%3D1681665021%26refinements%3Dp_72%253A1318476031%26rnid%3D1318475031%26sprefix%3Dmobile%252Caps%252C256%26sr%3D8-27-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1",
       "rating": "5.0 out of 5 stars"
      },
-     {
-      "name": "Apple iPhone 14 Pro Max (128 GB) - Deep Purple",
-      "url": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTozNDYyMzcwMzg2NjM2MjE4OjE2ODE2NjUwMjE6c3BfbXRmOjIwMTE1NzgzODEyOTk4OjowOjo&url=%2FApple-iPhone-128GB-Deep-Purple%2Fdp%2FB0BDJH6GL8%2Fref%3Dsr_1_28_sspa%3Fcrid%3D4DF94DCF94WA%26keywords%3Dmobiles%26qid%3D1681665021%26refinements%3Dp_72%253A1318476031%26rnid%3D1318475031%26sprefix%3Dmobile%252Caps%252C256%26sr%3D8-28-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1",
-      "price": "1,39,900",
-      "price_url": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTozNDYyMzcwMzg2NjM2MjE4OjE2ODE2NjUwMjE6c3BfbXRmOjIwMTE1NzgzODEyOTk4OjowOjo&url=%2FApple-iPhone-128GB-Deep-Purple%2Fdp%2FB0BDJH6GL8%2Fref%3Dsr_1_28_sspa%3Fcrid%3D4DF94DCF94WA%26keywords%3Dmobiles%26qid%3D1681665021%26refinements%3Dp_72%253A1318476031%26rnid%3D1318475031%26sprefix%3Dmobile%252Caps%252C256%26sr%3D8-28-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1",
-      "rating": "4.5 out of 5 stars"
-     },
+    
      {
       "name": "OnePlus Nord 2T 5G (Gray Shadow, 8GB RAM, 128GB Storage)",
       "url": "https://www.amazon.in/OnePlus-Nord-Shadow-128GB-Storage/dp/B0B3CQBRB4/ref=sr_1_29?crid=4DF94DCF94WA&keywords=mobiles&qid=1681665021&refinements=p_72%3A1318476031&rnid=1318475031&sprefix=mobile%2Caps%2C256&sr=8-29",
@@ -146,13 +135,7 @@ var product = [{
       "price_url": "https://www.amazon.in/OnePlus-Nord-Lite-128GB-Storage/dp/B09WQYFLRX/ref=sr_1_36?crid=4DF94DCF94WA&keywords=mobiles&qid=1681665021&refinements=p_72%3A1318476031&rnid=1318475031&sprefix=mobile%2Caps%2C256&sr=8-36",
       "rating": "4.3 out of 5 stars"
      },
-     {
-      "name": "Apple iPhone 14 Plus (256 GB) - Blue",
-      "url": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTozNDYyMzcwMzg2NjM2MjE4OjE2ODE2NjUwMjE6c3BfYnRmOjIwMTExMjExMjQzNTk4OjowOjo&url=%2FApple-iPhone-Plus-256GB-Blue%2Fdp%2FB0BDJQHJZZ%2Fref%3Dsr_1_37_sspa%3Fcrid%3D4DF94DCF94WA%26keywords%3Dmobiles%26qid%3D1681665021%26refinements%3Dp_72%253A1318476031%26rnid%3D1318475031%26sprefix%3Dmobile%252Caps%252C256%26sr%3D8-37-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1",
-      "price": "94,900",
-      "price_url": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTozNDYyMzcwMzg2NjM2MjE4OjE2ODE2NjUwMjE6c3BfYnRmOjIwMTExMjExMjQzNTk4OjowOjo&url=%2FApple-iPhone-Plus-256GB-Blue%2Fdp%2FB0BDJQHJZZ%2Fref%3Dsr_1_37_sspa%3Fcrid%3D4DF94DCF94WA%26keywords%3Dmobiles%26qid%3D1681665021%26refinements%3Dp_72%253A1318476031%26rnid%3D1318475031%26sprefix%3Dmobile%252Caps%252C256%26sr%3D8-37-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1",
-      "rating": "4.6 out of 5 stars"
-     },
+    
      {
       "name": "Apple iPhone 13 Mini (512GB) - Pink",
       "url": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTozNDYyMzcwMzg2NjM2MjE4OjE2ODE2NjUwMjE6c3BfYnRmOjIwMDc5NjgyODQ3NTAzOjowOjo&url=%2FApple-iPhone-13-Mini-512GB%2Fdp%2FB09G997HJP%2Fref%3Dsr_1_38_sspa%3Fcrid%3D4DF94DCF94WA%26keywords%3Dmobiles%26qid%3D1681665021%26refinements%3Dp_72%253A1318476031%26rnid%3D1318475031%26sprefix%3Dmobile%252Caps%252C256%26sr%3D8-38-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1",
@@ -162,28 +145,8 @@ var product = [{
      }
     ,
     
+      
        
-         {
-          "name": "Apple iPhone 14 (128 GB) - Blue",
-          "url": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTozNDE1NTcyNjE1MDE5NDY3OjE2ODE2NjUzNTc6c3BfYXRmOjIwMTExMjExMjQ3Njk4OjowOjo&url=%2FApple-iPhone-14-128GB-Blue%2Fdp%2FB0BDK62PDX%2Fref%3Dsr_1_1_sspa%3Fcrid%3D4DF94DCF94WA%26keywords%3Dmobiles%26qid%3D1681665357%26refinements%3Dp_72%253A1318476031%26rnid%3D1318475031%26sprefix%3Dmobile%252Caps%252C256%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1",
-          "price": "71,999",
-          "price_url": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTozNDE1NTcyNjE1MDE5NDY3OjE2ODE2NjUzNTc6c3BfYXRmOjIwMTExMjExMjQ3Njk4OjowOjo&url=%2FApple-iPhone-14-128GB-Blue%2Fdp%2FB0BDK62PDX%2Fref%3Dsr_1_1_sspa%3Fcrid%3D4DF94DCF94WA%26keywords%3Dmobiles%26qid%3D1681665357%26refinements%3Dp_72%253A1318476031%26rnid%3D1318475031%26sprefix%3Dmobile%252Caps%252C256%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1",
-          "rating": "4.5 out of 5 stars"
-         },
-         {
-          "name": "Apple iPhone 14 Pro (128 GB) - Silver",
-          "url": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTozNDE1NTcyNjE1MDE5NDY3OjE2ODE2NjUzNTc6c3BfYXRmOjIwMTExMjExMjQ1Mjk4OjowOjo&url=%2FApple-iPhone-Pro-128GB-Silver%2Fdp%2FB0BDJDZ7RH%2Fref%3Dsr_1_2_sspa%3Fcrid%3D4DF94DCF94WA%26keywords%3Dmobiles%26qid%3D1681665357%26refinements%3Dp_72%253A1318476031%26rnid%3D1318475031%26sprefix%3Dmobile%252Caps%252C256%26sr%3D8-2-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1",
-          "price": "1,19,999",
-          "price_url": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTozNDE1NTcyNjE1MDE5NDY3OjE2ODE2NjUzNTc6c3BfYXRmOjIwMTExMjExMjQ1Mjk4OjowOjo&url=%2FApple-iPhone-Pro-128GB-Silver%2Fdp%2FB0BDJDZ7RH%2Fref%3Dsr_1_2_sspa%3Fcrid%3D4DF94DCF94WA%26keywords%3Dmobiles%26qid%3D1681665357%26refinements%3Dp_72%253A1318476031%26rnid%3D1318475031%26sprefix%3Dmobile%252Caps%252C256%26sr%3D8-2-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1",
-          "rating": "4.5 out of 5 stars"
-         },
-         {
-          "name": "Redmi A1 (Light Blue, 2GB RAM, 32GB Storage) | Segment Best AI Dual Cam | 5000mAh Battery | Leather Texture Design | Android 12",
-          "url": "https://www.amazon.in/Redmi-Storage-Segment-5000mAh-Battery/dp/B0BBN4DZBD/ref=sr_1_3?crid=4DF94DCF94WA&keywords=mobiles&qid=1681665357&refinements=p_72%3A1318476031&rnid=1318475031&sprefix=mobile%2Caps%2C256&sr=8-3",
-          "price": "6,499",
-          "price_url": "https://www.amazon.in/Redmi-Storage-Segment-5000mAh-Battery/dp/B0BBN4DZBD/ref=sr_1_3?crid=4DF94DCF94WA&keywords=mobiles&qid=1681665357&refinements=p_72%3A1318476031&rnid=1318475031&sprefix=mobile%2Caps%2C256&sr=8-3",
-          "rating": "4.0 out of 5 stars"
-         },
          {
           "name": "OnePlus Nord CE 2 Lite 5G (Black Dusk, 6GB RAM, 128GB Storage)",
           "url": "https://www.amazon.in/OnePlus-Nord-Black-128GB-Storage/dp/B09WQY65HN/ref=sr_1_4?crid=4DF94DCF94WA&keywords=mobiles&qid=1681665357&refinements=p_72%3A1318476031&rnid=1318475031&sprefix=mobile%2Caps%2C256&sr=8-4",
@@ -191,13 +154,7 @@ var product = [{
           "price_url": "https://www.amazon.in/OnePlus-Nord-Black-128GB-Storage/dp/B09WQY65HN/ref=sr_1_4?crid=4DF94DCF94WA&keywords=mobiles&qid=1681665357&refinements=p_72%3A1318476031&rnid=1318475031&sprefix=mobile%2Caps%2C256&sr=8-4",
           "rating": "4.3 out of 5 stars"
          },
-         {
-          "name": "realme narzo 50A Prime (Flash Blue, 4GB RAM+128GB Storage) FHD+ Display | 50MP AI Triple Camera| Charger Included",
-          "url": "https://www.amazon.in/realme-Storage-Display-Charger-Included/dp/B0BG1NWLY3/ref=sr_1_5?crid=4DF94DCF94WA&keywords=mobiles&qid=1681665357&refinements=p_72%3A1318476031&rnid=1318475031&sprefix=mobile%2Caps%2C256&sr=8-5",
-          "price": "12,499",
-          "price_url": "https://www.amazon.in/realme-Storage-Display-Charger-Included/dp/B0BG1NWLY3/ref=sr_1_5?crid=4DF94DCF94WA&keywords=mobiles&qid=1681665357&refinements=p_72%3A1318476031&rnid=1318475031&sprefix=mobile%2Caps%2C256&sr=8-5",
-          "rating": "4.0 out of 5 stars"
-         },
+        
          {
           "name": "Redmi 10 Power (Sporty Orange, 8GB RAM, 128GB Storage)",
           "url": "https://www.amazon.in/Redmi-Power-Sporty-Orange-Storage/dp/B09Y5WPXGW/ref=sr_1_6?crid=4DF94DCF94WA&keywords=mobiles&qid=1681665357&refinements=p_72%3A1318476031&rnid=1318475031&sprefix=mobile%2Caps%2C256&sr=8-6",
@@ -212,13 +169,7 @@ var product = [{
           "price_url": "https://www.amazon.in/Samsung-Galaxy-Storage-6000mAh-Battery/dp/B0B4F2TTTS/ref=sr_1_7?crid=4DF94DCF94WA&keywords=mobiles&qid=1681665357&refinements=p_72%3A1318476031&rnid=1318475031&sprefix=mobile%2Caps%2C256&sr=8-7",
           "rating": "4.1 out of 5 stars"
          },
-         {
-          "name": "Oppo A78 5G (Glowing Blue, 8GB RAM, 128 Storage) | 5000 mAh Battery with 33W SUPERVOOC Charger| 50MP AI Camera | 90Hz Refresh Rate | with No Cost EMI/Additional Exchange Offers",
-          "url": "https://www.amazon.in/Oppo-Glowing-SUPERVOOC-Additional-Exchange/dp/B082F2T5PQ/ref=sr_1_8?crid=4DF94DCF94WA&keywords=mobiles&qid=1681665357&refinements=p_72%3A1318476031&rnid=1318475031&sprefix=mobile%2Caps%2C256&sr=8-8",
-          "price": "18,999",
-          "price_url": "https://www.amazon.in/Oppo-Glowing-SUPERVOOC-Additional-Exchange/dp/B082F2T5PQ/ref=sr_1_8?crid=4DF94DCF94WA&keywords=mobiles&qid=1681665357&refinements=p_72%3A1318476031&rnid=1318475031&sprefix=mobile%2Caps%2C256&sr=8-8",
-          "rating": "4.1 out of 5 stars"
-         },
+       
          {
           "name": "Nokia G21 Android Smartphone, Dual SIM, 3-Day Battery Life, 6GB RAM + 128GB Storage, 50MP Triple AI Camera | Nordic Blue",
           "url": "https://www.amazon.in/Nokia-Android-Smartphone-Battery-Storage/dp/B09Y99VSSJ/ref=sr_1_9?crid=4DF94DCF94WA&keywords=mobiles&qid=1681665357&refinements=p_72%3A1318476031&rnid=1318475031&sprefix=mobile%2Caps%2C256&sr=8-9",
@@ -226,13 +177,7 @@ var product = [{
           "price_url": "https://www.amazon.in/Nokia-Android-Smartphone-Battery-Storage/dp/B09Y99VSSJ/ref=sr_1_9?crid=4DF94DCF94WA&keywords=mobiles&qid=1681665357&refinements=p_72%3A1318476031&rnid=1318475031&sprefix=mobile%2Caps%2C256&sr=8-9",
           "rating": "4.0 out of 5 stars"
          },
-         {
-          "name": "Redmi 10A (Slate Grey, 4GB RAM, 64GB Storage) | 2 Ghz Octa Core Helio G25 | 5000 mAh Battery | Finger Print Sensor | Upto 5GB RAM with RAM Booster",
-          "url": "https://www.amazon.in/Redmi-Storage-Battery-Finger-Booster/dp/B09XB7SRQ5/ref=sr_1_10?crid=4DF94DCF94WA&keywords=mobiles&qid=1681665357&refinements=p_72%3A1318476031&rnid=1318475031&sprefix=mobile%2Caps%2C256&sr=8-10",
-          "price": "8,599",
-          "price_url": "https://www.amazon.in/Redmi-Storage-Battery-Finger-Booster/dp/B09XB7SRQ5/ref=sr_1_10?crid=4DF94DCF94WA&keywords=mobiles&qid=1681665357&refinements=p_72%3A1318476031&rnid=1318475031&sprefix=mobile%2Caps%2C256&sr=8-10",
-          "rating": "4.0 out of 5 stars"
-         },
+        
          {
           "name": "Itel P40 (6000mAh Battery with Fast Charging | 2GB RAM + 64GB ROM, Up to 4GB RAM with Memory Fusion | 13MP AI Dual Rear Camera) - Luxurious Gold",
           "url": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTozNDE1NTcyNjE1MDE5NDY3OjE2ODE2NjUzNTc6c3BfbXRmOjIwMTQxMDA5ODU5Nzk4OjowOjo&url=%2FItel-6000mAh-Battery-Charging-Memory%2Fdp%2FB0BXLPY5WW%2Fref%3Dsr_1_11_sspa%3Fcrid%3D4DF94DCF94WA%26keywords%3Dmobiles%26qid%3D1681665357%26refinements%3Dp_72%253A1318476031%26rnid%3D1318475031%26sprefix%3Dmobile%252Caps%252C256%26sr%3D8-11-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1",
@@ -240,13 +185,7 @@ var product = [{
           "price_url": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTozNDE1NTcyNjE1MDE5NDY3OjE2ODE2NjUzNTc6c3BfbXRmOjIwMTQxMDA5ODU5Nzk4OjowOjo&url=%2FItel-6000mAh-Battery-Charging-Memory%2Fdp%2FB0BXLPY5WW%2Fref%3Dsr_1_11_sspa%3Fcrid%3D4DF94DCF94WA%26keywords%3Dmobiles%26qid%3D1681665357%26refinements%3Dp_72%253A1318476031%26rnid%3D1318475031%26sprefix%3Dmobile%252Caps%252C256%26sr%3D8-11-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1",
           "rating": "5.0 out of 5 stars"
          },
-         {
-          "name": "Apple iPhone 14 Pro Max (1 TB) - Gold",
-          "url": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTozNDE1NTcyNjE1MDE5NDY3OjE2ODE2NjUzNTc6c3BfbXRmOjIwMTExMjExMjQ2Mzk4OjowOjo&url=%2FApple-iPhone-Pro-Max-Gold%2Fdp%2FB0BDJPZ4RC%2Fref%3Dsr_1_12_sspa%3Fcrid%3D4DF94DCF94WA%26keywords%3Dmobiles%26qid%3D1681665357%26refinements%3Dp_72%253A1318476031%26rnid%3D1318475031%26sprefix%3Dmobile%252Caps%252C256%26sr%3D8-12-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1",
-          "price": "1,89,900",
-          "price_url": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTozNDE1NTcyNjE1MDE5NDY3OjE2ODE2NjUzNTc6c3BfbXRmOjIwMTExMjExMjQ2Mzk4OjowOjo&url=%2FApple-iPhone-Pro-Max-Gold%2Fdp%2FB0BDJPZ4RC%2Fref%3Dsr_1_12_sspa%3Fcrid%3D4DF94DCF94WA%26keywords%3Dmobiles%26qid%3D1681665357%26refinements%3Dp_72%253A1318476031%26rnid%3D1318475031%26sprefix%3Dmobile%252Caps%252C256%26sr%3D8-12-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1",
-          "rating": "4.5 out of 5 stars"
-         },
+         
          {
           "name": "Redmi 9A Sport (Coral Green, 2GB RAM, 32GB Storage) | 2GHz Octa-core Helio G25 Processor | 5000 mAh Battery",
           "url": "https://www.amazon.in/Redmi-9A-Sport-Octa-core-Processor/dp/B09GFLXVH9/ref=sr_1_13?crid=4DF94DCF94WA&keywords=mobiles&qid=1681665357&refinements=p_72%3A1318476031&rnid=1318475031&sprefix=mobile%2Caps%2C256&sr=8-13",
@@ -296,20 +235,7 @@ var product = [{
           "price_url": "https://www.amazon.in/Samsung-Galaxy-Prime-Light-128GB/dp/B0BD3V985M/ref=sr_1_19?crid=4DF94DCF94WA&keywords=mobiles&qid=1681665357&refinements=p_72%3A1318476031&rnid=1318475031&sprefix=mobile%2Caps%2C256&sr=8-19",
           "rating": "4.1 out of 5 stars"
          },
-         {
-          "name": "Lava Blaze 5G (Glass Green, 6GB RAM, UFS 2.2 128GB Storage) | 5G Ready | 50MP AI Triple Camera | Upto 9GB Expandable RAM | Charger Included | Clean Android (No Bloatware)",
-          "url": "https://www.amazon.in/Lava-Blaze-5G-Green-Expandable/dp/B0BSTVXFWD/ref=sr_1_20?crid=4DF94DCF94WA&keywords=mobiles&qid=1681665357&refinements=p_72%3A1318476031&rnid=1318475031&sprefix=mobile%2Caps%2C256&sr=8-20",
-          "price": "11,999",
-          "price_url": "https://www.amazon.in/Lava-Blaze-5G-Green-Expandable/dp/B0BSTVXFWD/ref=sr_1_20?crid=4DF94DCF94WA&keywords=mobiles&qid=1681665357&refinements=p_72%3A1318476031&rnid=1318475031&sprefix=mobile%2Caps%2C256&sr=8-20",
-          "rating": "4.1 out of 5 stars"
-         },
-         {
-          "name": "Apple iPhone 14 Plus (128 GB) - Purple",
-          "url": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTozNDE1NTcyNjE1MDE5NDY3OjE2ODE2NjUzNTc6c3BfYnRmOjIwMTExMjExMjQ0MDk4OjowOjo&url=%2FApple-iPhone-Plus-128GB-Purple%2Fdp%2FB0BDJMSBXY%2Fref%3Dsr_1_21_sspa%3Fcrid%3D4DF94DCF94WA%26keywords%3Dmobiles%26qid%3D1681665357%26refinements%3Dp_72%253A1318476031%26rnid%3D1318475031%26sprefix%3Dmobile%252Caps%252C256%26sr%3D8-21-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1",
-          "price": "84,900",
-          "price_url": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTozNDE1NTcyNjE1MDE5NDY3OjE2ODE2NjUzNTc6c3BfYnRmOjIwMTExMjExMjQ0MDk4OjowOjo&url=%2FApple-iPhone-Plus-128GB-Purple%2Fdp%2FB0BDJMSBXY%2Fref%3Dsr_1_21_sspa%3Fcrid%3D4DF94DCF94WA%26keywords%3Dmobiles%26qid%3D1681665357%26refinements%3Dp_72%253A1318476031%26rnid%3D1318475031%26sprefix%3Dmobile%252Caps%252C256%26sr%3D8-21-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1",
-          "rating": "4.6 out of 5 stars"
-         },
+       ,
          {
           "name": "Apple iPhone SE (128 GB) - Starlight (3rd Generation)",
           "url": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTozNDE1NTcyNjE1MDE5NDY3OjE2ODE2NjUzNTc6c3BfYnRmOjIwMDM1NTMzNDQyMTk4OjowOjo&url=%2FApple-iPhone-128-Starlight-Generation%2Fdp%2FB09V44M2JC%2Fref%3Dsr_1_22_sspa%3Fcrid%3D4DF94DCF94WA%26keywords%3Dmobiles%26qid%3D1681665357%26refinements%3Dp_72%253A1318476031%26rnid%3D1318475031%26sprefix%3Dmobile%252Caps%252C256%26sr%3D8-22-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1",

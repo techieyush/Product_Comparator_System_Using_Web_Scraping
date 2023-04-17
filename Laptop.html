@@ -97,59 +97,35 @@
 <script src="./Script/AmazonLaptop.js"></script>
 <script src="./Script/FlipkartLaptop.js"></script>
 <script>
-    for(var i=1;i< Laptops1.length;i++)
-    {
-        document.getElementById('select1').innerHTML +=`
-        <option value="${i}">${ Laptops1[i].title}</option>
-        `;
-    }
+  
     
-    for(var i=1;i< Laptops2.length;i++)
-    {
-
-    
-        document.getElementById('select2').innerHTML +=`
-        <option value="${i}">${ Laptops2[i].title}</option>
-        `;
-    }
+   
 
     function item1(a)
     {
         var b=document.getElementById('select2').value;
-        // if(a!=b)
-        // {
+        
             document.getElementById('img1').src= Laptops1[a].image;
             document.getElementById('price1').innerHTML= Laptops1[a].price;
             document.getElementById('Pb1').innerHTML= Laptops1[a].brand;
-            // document.getElementById('PD1').innerHTML=Laptops1[a].description;
+          
             document.getElementById('PR1').innerHTML=Laptops1[a].rating;
-            // document.getElementById('PU1').innerHTML=Laptops1[a].url;
             
-        // }
-        // else{
-            // document.getElementById('img1').src= Laptops1[0].image;
-            // document.getElementById('price1').innerHTML="Both items are Same Items";
-            // document.getElementById('Pb1').innerHTML="Cannot Compare";
-        // }
+            
+       
         
     }
     function item2(a)
     {
         var b=document.getElementById('select1').value;
-        // if(a!=b)
-        // {
+      
             document.getElementById('img2').src= Laptops2[a].image;
             document.getElementById('price2').innerHTML= Laptops2[a].price;
             document.getElementById('Pb2').innerHTML= Laptops2[a].brand;
-            // document.getElementById('PD2').innerHTML=Laptops2[a].description;
+            
             document.getElementById('PR2').innerHTML=Laptops2[a].rating;
             // document.getElementById('PU2').innerHTML=Laptops2[a].url;
-        // }
-        // else{
-        //     document.getElementById('img2').src= Laptops2[0].image;
-        //     document.getElementById('price2').innerHTML=Laptops2[a].price;
-        //     document.getElementById('Pb2').innerHTML=;
-        // }
+      
        
     }
 </script>
