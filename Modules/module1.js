@@ -10,13 +10,14 @@ app.controller("myWatches1Controller",function($scope,$window){
         let price = $scope.watches1[i].price;
         let brand = $scope.watches1[i].brand;
         let rating = $scope.watches1[i].rating;
-        // $window.alert(price);
-        $window.alert($scope.price);
+        
+        
         $scope.imageAddress = image;
         $scope.price = price;
         $scope.brand = brand;
         $scope.rating = rating;
-        
+        console.log(price);
+        console.log($scope.price);
         
     
         
@@ -66,9 +67,9 @@ app.controller("myWatches1Controller",function($scope,$window){
         ,
       
          {
-            "id":"1",
-            "title":"FORSINING ",
-            "price": "4,099",
+          "id":"1",
+          "title":"FORSINING ",
+          "price": "4,099",
           "description": "FORSINING Analogue Men's Watch(Gold Dial Silver Colored Strap)-S1089-2",
           "brand":"FORSINING ",
           "rating": "4.0 out of 5 stars",
@@ -79,9 +80,9 @@ app.controller("myWatches1Controller",function($scope,$window){
           
          },
          {
-            "id":"2",
-            "title":"SF Venus",
-            "price": "475",
+          "id":"2",
+          "title":"SF Venus",
+          "price": "475",
           "description": "Venus Digital Grey Dial Men's Watch-NL7982PP03",
           "brand":"Venus",
           "rating": "4.1 out of 5 stars",
@@ -607,11 +608,19 @@ app.controller("myWatches2Controller",function($scope,$window){
     $scope.pr2 = "";
     $scope.item2 = function(){
         let i = $scope.selectedOption2;
-        $scope.imageAddress2 = $scope.watches2[i].image;
-        $scope.price2 = $scope.watches2[i].price;
-        $scope.pb2 = $scope.watches2[i].brand;
-        $scope.pr2 = $scope.watches2[i].rating;
-        $window.alert($scope.price2);
+      
+        let image = $scope.watches2[i].image;
+        let price = $scope.watches2[i].price;
+        let brand = $scope.watches2[i].brand;
+        let rating = $scope.watches2[i].rating;
+        
+        
+        $scope.imageAddress = image;
+        $scope.price = price;
+        $scope.brand = brand;
+        $scope.rating = rating;
+        console.log(price);
+        console.log($scope.price);
     }
     $scope.watches2=[
         {
