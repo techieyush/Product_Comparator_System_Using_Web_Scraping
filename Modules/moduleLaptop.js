@@ -23,18 +23,6 @@ app.controller('myControllerLaptops1',function($scope)
     
     $scope.Laptops1= [
    
-      {
-     "id":"0",
-        "title": "---Select Anyone---",
-        "price": "",
-        "description": "",
-        "brand": "",
-        "rating": "",
-        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/1665px-No-Image-Placeholder.svg.png",
-        "url": "",
-        "Price_url":""
-       
-    },
  {
   "id":"1",
   "title": "HP 14s",
@@ -341,17 +329,7 @@ app.controller('myControllerLaptops2',function($scope){
     }
 
     $scope.Laptops2=[
-      {
-          'id':'0',
-          "title": "---Select Anyone---",
-          "price": "",
-          "description": "",
-          "brand": "",
-          "rating": "",
-          "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/1665px-No-Image-Placeholder.svg.png",
-          "url": "",
-         
-      },
+     
        {
          'id':'1',
     "title": "HP 14s",

@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="myMod">
+<html lang="en" ng-app="myModIndex">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./angular.js" type="text/javascript"></script>
+    <script src="./Script/angular.js" type="text/javascript"></script>
     <script src="./Script/route.min.js"></script>
-    <script src="./Script/moduleIndex.js"></script>
+    <script src="./Modules/moduleIndex.js"></script>
     
     <title>ProductComparatorSystem</title>
 </head>
 
-<body >
-    <section  ng-controller="myController" ngRoute>
+<body ng-controller="myControllerIndex" >
+    <section >
         <div id="header" >
             <nav>
                
@@ -39,7 +39,7 @@
         <div id="Mobile">
             <h1>Mobile Phones</h1>
             <h3>Compare Mobiles On Single Click</h3><br><br>
-           <a href="#!Mobile"><button onclick="Mobile()" target="_self">Mobiles</button></a> 
+            <button ng-click="Mobile()">Mobiles</button>
         </div>
         <div ng-view>
             
@@ -47,7 +47,7 @@
         <div id="Laptop">
             <h1>Laptops</h1>
             <h3>Compare Laptops On Single Click</h3><br><br>
-            <a href="#!Laptop"><button >Laptops</button></a>
+           <button ng-click="Laptop()" >Laptops</button>
         </div>
         <div ng-view>
             
@@ -55,17 +55,16 @@
         <div id="Watches" >
             <h1>Watches</h1>
             <h3>Compare Watches On Single Click</h3><br><br>
-            <a href="#!Watch"><button>Watches</button></a>
+            <button ng-click="Watches()">Watches</button>
             
 
-        </div>
-        <div ng-view>
+      
             
         </div>
         <div id="Novels" >
             <h1>Novels</h1>
             <h3>Compare Novels On Single Click</h3><br><br>
-           <button onclick="goToPage('/Books.html')">Novels</button></a>
+           <button ng-click="Books()">Novels</button>
            
         </div>
         <div ng-view>
@@ -105,10 +104,3 @@
 </body>
 
 </html>
-
-<script>
-    function Mobile()
-    {
-        window.open('Mobile.html')
-    }
-</script>

@@ -19,18 +19,7 @@ app.controller("myWatches1Controller",function($scope,$window){
    
 
     $scope.watches1=[
-        {
-            "id":"0",
-            "title": "---Select Anyone---",
-            "price": "",
-            "description": "",
-            "brand": "",
-            "rating": "",
-            "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/1665px-No-Image-Placeholder.svg.png",
-            "url": "",
-            "Price_url":""
-        }
-        ,
+       
       
          {
           "id":"1",
@@ -588,18 +577,7 @@ app.controller("myWatches2Controller",function($scope,$window){
       
     }
     $scope.watches2=[
-        {
-            "id":"0",
-            "title": "---Select Anyone---",
-            "price": "",
-            "description": "",
-            "brand": "",
-            "rating": "",
-            "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/1665px-No-Image-Placeholder.svg.png",
-            "url": "",
-            "Price_url":""
-        }
-        ,
+       
       
          {
             "id":"1",

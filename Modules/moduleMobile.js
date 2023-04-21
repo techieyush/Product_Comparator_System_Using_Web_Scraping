@@ -17,15 +17,7 @@ app.controller("myMobile1Controller",function($scope,$window){
         $scope.rating = rating;
 }
 
-$scope.Mobiles1=[{
-    "id": "0",
-    "title": "---Select Anyone---",
-    "price": "",
-    "description": "",
-    "brand": "",
-    "rating":"",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/1665px-No-Image-Placeholder.svg.png"
-}, 
+$scope.Mobiles1=[
   
 {
       "id":"1",
@@ -478,16 +470,8 @@ app.controller("myMobiles2Controller",function($scope,$window){
 
 
 $scope.Mobiles2= [
-    {
-            "id": "0",
-            "title": "---Select Anyone---",
-            "price": "",
-            "description": "",
-            "brand": "",
-            "rating":"",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/1665px-No-Image-Placeholder.svg.png"
-       
-        }, 
+   
+        
           {
               "id":"1",
               "title":"Apple iPhone 14 Pro",
