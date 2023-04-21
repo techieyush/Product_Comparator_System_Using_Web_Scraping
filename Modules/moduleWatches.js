@@ -21,7 +21,7 @@ app.controller("myWatches1Controller",function($scope,$window){
     $scope.watches1=[
         {
             "id":"0",
-            "title": "Select Any One",
+            "title": "---Select Anyone---",
             "price": "",
             "description": "",
             "brand": "",
@@ -590,7 +590,7 @@ app.controller("myWatches2Controller",function($scope,$window){
     $scope.watches2=[
         {
             "id":"0",
-            "title": "",
+            "title": "---Select Anyone---",
             "price": "",
             "description": "",
             "brand": "",

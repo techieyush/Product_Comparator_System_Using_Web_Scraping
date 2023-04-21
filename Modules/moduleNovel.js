@@ -20,7 +20,7 @@ app.controller("myNovels1Controller",function($scope,$window){
 $scope.Novels1=[
         {
             "id":"0",
-            "title": "",
+            "title": "---Select Anyone---",
             "prices": "",
             "description": "",
             "author": "",
@@ -311,7 +311,7 @@ $scope.Novels1=[
     $scope.prices = "";
     $scope.author= "";
     $scope.rating = "";
-    $scope.item1 = function(){
+    $scope.item2 = function(){
         let i = $scope.selectedOption2;
         let image = $scope.Novels2[i].image;
         let prices = $scope.Novels2[i].prices;
@@ -329,7 +329,7 @@ $scope.Novels1=[
  $scope.Novels2=[
         {
             "id":"0",
-            "title": "",
+            "title": "---Select Anyone---",
             "prices": "",
             "description": "",
             "brand": "",

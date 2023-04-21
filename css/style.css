@@ -1,172 +1,183 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+* {
+  padding: 0;
+  margin: 0;
+  word-wrap: break-word;
 }
 
-.navigationBar nav{
-    width: 100%;
-    height: 75px;
-    line-height: 75px;
-    padding: 0px 40px;
-    position: fixed;
-    background-image: linear-gradient(rgb(105, 105, 177),rgb(113, 139, 113));
+body {
+  overflow-y: hidden;
+}
 
- }
- .navigationBar nav .logo p{
-    font-family: cursive;
-    font-size: 25px;
-    float: left;
-    color: white;
- }
- .navigationBar nav ul{
-    float: right;
-    margin-right:20px ;
-  }
-
-  .navigationBar nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 20px;
-
-  }
- .navigationBar  nav li a{
-    font-size: 22px ;
-    color: white;
-  }
-
-  .navigationBar .nav li a:hover{
-    color:rgb(202, 115, 199);
-    transition: all 0.4s ease 0s;
-  }
-
- .shoes{
-    height: 320px;
-    width: 100%;  
-    color: black;
-    padding-top: 130px;
-    /* margin-top: 50px; */
-    /* display: flex; */
-    /* flex-direction: column; */
-  
-    background-color: rgb(42, 130, 130);
-    
-   
-   
-  }
-  .BodyContent{
-    text-align: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 5px;
-    
-  }
-  .cloths{
-    height: 320px;
-    width: 100%;
-    background-color: rgb(120, 165, 102);
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    padding-top: 130px;
-
-    flex-direction: column;
-  
-   
-
-  } 
-   .accessories
-  {
-    height: 320px;
-    width: 100%;
-    background-color: rgb(119, 83, 146);
-    text-align: center;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 130px;
-   
-   
-   
-  } 
- .watches{
-    height: 320px;
-    width: 100%;
-    background-color: rgb(83, 107, 82);
-    text-align: center;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 130px;
-   
-
-  } 
-  
-.footer{
-  background-color: black;
-  padding: 60px 0 ;
-  font-family: cursive;
-  color: white;
+section {
   width: 100%;
-}
-.footer_Row{
-    display: flex;
-    flex-wrap: wrap;
-
-}
-.footer_Col{
-  width: 25%;
-  padding: 0 25px;
-  margin-left: 80px;
-
-
-}
-ul{
-  list-style: none;
-}
-.footer_Col ul li a{
-  color: rgb(161, 162, 164);
-  font-size: 18px;
-  margin: 5px;
-
-}
-.footer_Col h4{
-  color: #777777;
-}
-.footer_Col li a:hover{
-  color:rgb(202, 115, 199);
-  transition: all 0.4s ease 0s;
-
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
-.h1_display{
-  text-align: center;
-  justify-content: center;
+#header {
+  width: 100%;
+  height: 80px;
+  display: flex;
   align-items: center;
-  margin-top: 25px;
-  font-family: cursive;
+  justify-content: space-between;
+  background-color: rgb(230, 234, 234);
 }
-.table{
-  font-size: 30px;
-  font-family: cursive;
+
+nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 20px;
 }
-.formCntrl{
-  font-size: large;
-  margin-left: 25px;
-  text-align: center;
-  align-items:center ;
+
+#loginSignUp {
+  margin-right: 20px;
+}
+
+nav ul {
+  margin-left: 1vw;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  /* text-shadow: -1px 0 rgb(249, 194, 56), 0 1px rgb(249, 194, 56), 1px 0 rgb(249, 194, 56), 0 -1px rgb(249, 194, 56); */
+  margin: 1vw 1vw;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font-size: 18px;
+  position: relative;
+}
+
+nav ul li a::after {
+  content: '';
+  width: 0;
+  height: 1px;
+  background: rgba(24, 24, 144, 0.827);
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+nav img {
+  width: 90px;
+  height: 90px;
+}
+
+button {
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 1.1vw;
+  padding-left: 20px;
+  background-color: rgba(160, 111, 224, 0.827);
+  color: white;
+  padding-right: 20px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.228), 0 10px 10px rgba(0, 0, 0, 0.228);
+}
+
+button:hover {
+  background-color: rgb(100, 67, 114);
+  box-shadow: 0 -20px 20px rgba(0, 0, 0, 0.228), 0 20px 20px rgba(0, 0, 0, 0.228);
+  font-size: 1.2vw;
+  transition: 700ms;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+#ContentBox,
+#Mobile,
+#Laptop,
+#Watches,
+#Novels{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
-td>img{
+#ContentBox h1,
+#Mobile h1,
+#Laptop h1,
+#Watches h1,
+#Novels h1{
+  font-size: 4vw;
+}
+
+#ContentBox {
+  background-color: rgba(31, 102, 128, 0.349);
+}
+
+#Mobile {
+  background-color: rgb(172, 115, 166);
+}
+
+#Laptop{
+  background-color: rgba(48, 35, 80, 0.488)
+}
+
+#Watches {
+  background-color: rgba(166, 127, 219, 0.512)
+}
+
+#Novels {
+  background-color: rgba(223, 130, 228, 0.505)
+}
+
+
+
+#footer {
   width: 100%;
-  height: 350px;
-  object-fit: contain;
-  margin-left: 12px;
+  height: 50vh;
+  background-color: rgb(40, 40, 57);
+  display: flex;
+  justify-content: space-evenly;
 }
-.container{
-  margin-left: 250px;
+
+#Products,
+#ContactUs,
+#FollowUshandle  {
+  color: white;
+  margin-top: 60px;
 }
+
+#Products div,
+#ContactUs div {
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+#FollowUshandles a {
+  padding-right: 20px;
+}
+
+#FollowUshandlesa img {
+  width: 40px;
+}
+
+#FollowUshandles a img:hover {
+  width: 50px;
+  transition: 700ms;
+}
+
+#Products div a:hover{
+  color:rgb(202, 115, 199);
+transition: all 0.4s ease 0s;
+}
+
