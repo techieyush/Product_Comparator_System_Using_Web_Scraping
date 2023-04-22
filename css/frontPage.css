@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-position: center;
+    background-position-x: center;
+    background-color: rgb(56, 172, 172);
+   /* background-repeat: no-repeat; */
+   background-image: url('https://t3.ftcdn.net/jpg/03/93/21/72/360_F_393217240_zfkRyEmOdzBx5VuSm36iNT1Jz36oZmpP.jpg')
+  
+}
+
+.container h1{
+    box-shadow: 2px 2px rgb(246, 220, 220);
+    font-size: 80px;
+    margin: 15px 10px 0 10px;
+    text-align: center;
+    border: 2px solid rgb(227, 212, 212);
+    border-radius: 50px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 5%;
+    text-shadow: 2px 2px #f2dddd;
+}
+marquee{
+   
+        font-size: 25px;
+        font-weight: 800;
+        color: #edefe8;
+        color: rgba(81, 75, 75, 0.623);
+        font-family: sans-serif;
+        text-shadow: 2px 2px #e7e2e2;
+     
+}
+.main{
+    display: flex;
+   
+    justify-content: space-evenly;
+    text-align: center  ;
+    margin-top: 25px;
+    
+}
+.div1 {
+   
+    height: 40vh;
+    width: 25%;
+    border: 2px solid rgb(240, 239, 239);
+    color: white;
+    /* margin-left: 5px; */
+    /* margin-right: 5px; */
+    border-top-left-radius: 5%;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 5%;
+    margin: 0;
+   
+   
+}
+.div1 h1{
+    margin: 60px;
+
+}
+.div2{
+    height: 70vh;
+    width: 25%;
+    border: 2px solid rgb(227, 226, 226);
+  /* margin-left: 5px;
+  margin-right: 5px; */
+   border-top-left-radius: 5%;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 5%;
+    
+ 
+
+}
+.div2 span{
+    color: white;
+}
+
+.div4{
+    color: white;
+    height: 40vh;
+    width: 25%;
+    border: 2px solid rgb(247, 240, 240);
+    /* margin-left: 5px;
+    margin-right: 5px; */
+    border-top-left-radius: 5%;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 5%;
+ 
+   
+   
+
+}
+.div4 h1{
+    margin: 60px;
+
+}
+button {
+
+    cursor: pointer;
+    margin-left: 10px;
+    /* text-align: center;
+    justify-content: center;
+    display: flex; */
+    padding: 10px;
+    /* margin-top: 50%; */
+   
+    /* font-size: 1.1vw; */
+    padding-left: 30px;
+    background-color: rgba(133, 132, 134, 0.755);
+    color: white;
+    padding-right: 30px;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.228), 0 10px 10px rgba(0, 0, 0, 0.228);
+}
+
+button:hover {
+    background-color: rgb(58, 58, 58);
+    box-shadow: 0 -20px 20px rgba(0, 0, 0, 0.228), 0 20px 20px rgba(0, 0, 0, 0.228);
+    font-size: 1.2vw;
+    transition: 700ms;
+}
+
+button:active {
+    box-shadow: none;
+}
