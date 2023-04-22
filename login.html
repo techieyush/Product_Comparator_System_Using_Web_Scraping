@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="myModFront">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/loginStyle.css">
+    <script src="./Modules/moduleFrontPage.js"></script>
+    <script src="./Script/angular.js"></script>
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
-<body>
+<body ng-controller="myControllerFront">
     <div class="container">
         <div class="SignUpform">
                 <h1 id="titla">Sign Up</h1>
@@ -28,27 +30,18 @@
                             <input type="password" value="password">
                         </div>
                     
-                        <p>Forget Password <a href="#">Click Here!</a></p>
+                        
                         </div>
                         <div class="buttonfield">
-                            <button type="button" id="signupBtn">Sign up</button>
-                            <button type="button" id="signinBtn" class="disable">Sign in</button>
+                            
+                            <button type="button" id="signinBtn" >Login</button>
                         </div>
 
                 </form>
            </div>
         
        
-        <!-- <div class="Inputbox">
-            <input type="text" required="required">
-            <span>Password</span>
-        </div>
-        <div class="links">
-            <a href="#">Forget Password</a> <br>
-            <a href="#">Sign Up</a>
-        </div>
-        <input type="submit" value="Login">
-        </div> -->
+       
 
     </div>
    
