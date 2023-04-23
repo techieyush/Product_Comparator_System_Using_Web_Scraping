@@ -18,6 +18,16 @@ app.controller("myNovels1Controller",function($scope,$window){
         $scope.rating = rating;
     }
 $scope.Novels1=[
+  {
+    "id":"0",
+    "title": "---Select Anyone--",
+    "price": "",
+    "description": "",
+    "brand": "",
+    "rating": "",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/1665px-No-Image-Placeholder.svg.png",
+    "url": "",
+    "Price_url":""},
      {
         "id":"1",
         "title":"A Walk in my Shoes",
@@ -316,7 +326,16 @@ $scope.Novels1=[
    
    
  $scope.Novels2=[
-      
+  {
+    "id":"0",
+    "title": "---Select Anyone--",
+    "price": "",
+    "description": "",
+    "brand": "",
+    "rating": "",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/1665px-No-Image-Placeholder.svg.png",
+    "url": "",
+    "Price_url":""},
      {
         "id":"1",
         "title":"A Walk in my Shoes",

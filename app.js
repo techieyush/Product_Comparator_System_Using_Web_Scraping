@@ -113,6 +113,24 @@ app.get("/Mobile.html",(req,res)=>
 {
     res.sendFile(path.join(__dirname,'Mobile.html'));
 })
+app.get("/Laptop.html",(req,res)=>
+{
+    res.sendFile(path.join(__dirname,'Laptop.html'));
+})
+app.get("/Books.html",(req,res)=>
+{
+    res.sendFile(path.join(__dirname,'Books.html'));
+})
+app.get("/Watches.html",(req,res)=>
+{
+    res.sendFile(path.join(__dirname,'Watches.html'));
+})
+app.get("/ReisterPage.html",(req,res)=>
+{
+    res.sendFile(path.join(__dirname,'Register.html'));
+})
+
+
 app.get("/FrontPage.html",(req,res)=>
 {
     res.sendFile(path.join(__dirname,'FrontPage.html'));

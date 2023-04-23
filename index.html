@@ -12,12 +12,10 @@
     
     <title>ProductComparatorSystem</title>
 </head>
-
 <body ng-controller="myControllerIndex" >
     <section >
         <div id="header" >
             <nav>
-               
                 <ul>
                     <li><a href="#ContentBox">Home</a></li>
                     <li><a href="#About">About Us</a></li>
@@ -26,10 +24,10 @@
                     <li><a href="#footer">Contact Us</a></li>
                 </ul>
             </nav>
-            <div id="loginSignUp" >
+            <!-- <div id="loginSignUp" >
                 <button>Sign Up</button>
                 <button>Log in</button>
-            </div>
+            </div> -->
         </div>
         <div id="ContentBox">
             <h1>Welcome to Product Comparator System</h1>
@@ -41,49 +39,35 @@
             <h3>Compare Mobiles On Single Click</h3><br><br>
             <button ng-click="Mobile()">Mobiles</button>
         </div>
-       
         <div id="Laptop">
             <h1>Laptops</h1>
             <h3>Compare Laptops On Single Click</h3><br><br>
            <button ng-click="Laptop()" >Laptops</button>
         </div>
-        <div ng-view>
-            
-        </div>
         <div id="Watches" >
             <h1>Watches</h1>
             <h3>Compare Watches On Single Click</h3><br><br>
             <button ng-click="Watches()">Watches</button>
-            
-
-      
-            
         </div>
         <div id="Novels" >
             <h1>Novels</h1>
             <h3>Compare Novels On Single Click</h3><br><br>
            <button ng-click="Books()">Novels</button>
-           
         </div>
-       
-       
-        <div id="footer">
+       <div id="footer">
             <div id="Products">
                 <h2>Product Categories</h2><br>
-                
                 <div>Laptops</div>
                 <div>Mobile Phones</div>
                 <div>Novels</div>
                 <div>Watches</div>
-                
-               
-            </div>
+             </div>
              <div id="FollowUshandle">
                 <h2>FOLLOW US</h2><br><br>
-                <img src="./Images/fb-removebg-preview.png"  width="40px"alt="facebook">
-                <img src="./Images/git-removebg-preview.png" width="40px" alt="Github">
-                <img src="./Images/insta-removebg-preview.png"width="40px"  alt="Insta">
-                <img src="./Images/link-removebg-preview.png" width="40px"  alt="Linked in">
+                <img src="fb-removebg-preview.png"  width="40px"alt="facebook">
+                <img src="git-removebg-preview.png" width="40px" alt="Github">
+                <img src="insta-removebg-preview.png"width="40px"  alt="Insta">
+                <img src="link-removebg-preview.png" width="40px"  alt="Linked in">
             </div>
             <div id="ContactUs">
                 <h2>CONTACT  US</h2><br>
@@ -91,11 +75,7 @@
                 <div>WhatsApp No : 7234874583</div>
                 <div>Email : ComparatorSystem@gmail.com</div>
             </div>
-           
-        </div>
-
-    </section>
-    
+         </div>
+</section>
 </body>
-
 </html>
