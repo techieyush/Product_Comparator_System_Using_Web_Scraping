@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+    
+}
+.container{
+background-color: rgb(89, 184, 203);;
+}
+body{
+    position: inherit;
+    background-color: rgb(89, 184, 203);
+}
+.h1_display{
+    
+    text-align: center;
+    padding:10px 0;
+    /* padding-bottom: 22px; */
+    font-size: 22px;
+    color:var(--black);
+    position: inherit;
+  }
+  .h1_display span{
+    background:rgb(248, 249, 249);
+    color:#161616;
+    display: inline-block;
+    padding:.5rem 3rem;
+    clip-path: polygon(20% 0, 80% 0%, 100% 100%, 0% 100%);
+
+  }
+  .table{
+    /* margin-top: 5px; */
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-inline: 35px;
+  }
+  #selProd{
+    padding-top: 25px;
+    
+  }
+  #price1,#price2,#Pb1,#Pb2,#PR1,#PR2{
+    padding-top: 10px;
+    padding-left: 30px;
+    text-align: center;
+  }
+  .formCntrl{
+    font-size: large;
+    margin-left: 40px;
+    text-align: center;
+    align-items:center ;
+    justify-content: center;
+  }
+  
+  td>img{
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+    margin-left: 12px;
+  }
+  .container{
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+  
+  }
+  .Colmns1 {
+    height: 90vh;
+    width: 50%;
+    background-color: white;
+    border: 2px solid rgb(89, 184, 203);
+    border-top-left-radius: 5%;
+   border-top-right-radius: 15%;
+   border-bottom-left-radius: 15%;
+   border-bottom-right-radius: 5%;
+  
+  }
+  .Colmns2{
+    height: 90vh;
+    width: 50%;
+    background-color: white;
+    border: 2px solid rgb(89, 184, 203);
+  
+    border-top-left-radius: 15%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 15%;
+  
+  }
+
+  

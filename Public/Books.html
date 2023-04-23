@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myMod1">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PagesStyle.css">
+    <script src="angular.js" type="text/javascript"></script>
+    <script src="moduleNovel.js"></script>
+     <title>Novels</title>
+</head>
+<body >
+    <h2 class="h1_display"><span>Novels</span></h2>
+    <div class="container">
+        <div class="Colmns1" ng-controller="myNovels1Controller">
+            <table class="table">
+                <tr>
+                    <th>Select Product </th>
+                    <th >
+                        <h3 >Amazon</h3>
+                        <select class="formCntrl" id="select1" ng-change="item1()" ng-options="novel.id as novel.title for novel in Novels1" ng-model="selectedOption1" >
+                            <option value="">---Select Anyone---</option>
+                            <!-- <div ><option value={{watch.id}}>{{watch.title}}</option></div> -->
+                        </select>
+                    </th>
+              </tr>
+              <tr>
+                    <th>Product Image</th>
+                    <td  >
+                        <img src={{imageAddress}} id="img1" alt="">
+                    </td>
+                   
+                </tr>
+                <tr>
+                    <th>Product Price</th>
+                    <td id="price1" >{{prices}}</td>
+                   
+                </tr>
+                <tr>
+                    <th>Author</th>
+                    <td id="Pb1" >{{author}}</td>
+                   
+                </tr>
+                <tr>
+                    <th>Product Rating</th>
+                    <td id="PR1" >{{rating}}</td>
+                    
+                </tr>
+            </table>
+        </div>
+ <div class="Colmns2" ng-controller="myNovels2Controller">
+            <table class="table">
+                <tr>
+                    <th>Select Product </th>
+                    <th>
+                        <h3>Flipkart</h3>
+                            <select class="formCntrl" id="select2" ng-change="item2()" ng-options="novel.id as novel.title for novel in Novels2" ng-model="selectedOption2" >
+                                <option value="">---Select Anyone---</option>
+                            </select>
+                        </th>
+                </tr>
+                <tr>
+                    <th>Product Image</th>
+                    <td >
+                        <img src={{imageAddress}} id="img2" alt="">
+                    </td>
+                </tr>
+                <tr>
+                    <th>Product Price</th>
+                    <td id="price2">{{prices}}</td>
+                </tr>
+                <tr>
+                    <th>Author</th>
+                   <td id="Pb2" >{{author}}</td>
+                </tr>
+                <tr>
+                    <th>Product Rating</th>
+                     <td id="PR2">{{rating}}</td>
+                </tr>
+             </table>
+        </div>
+        
+    </div>
+
+
+    
+
+</body>
+</html>
+
