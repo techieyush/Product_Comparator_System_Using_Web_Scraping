@@ -17,6 +17,10 @@ app.controller('myControllerIndex', function($scope, $location,$window) {
     {
       $window.open('./Books.html','_self');
     }
+    $scope.Logout=function()
+    {
+      $window.open('./FrontPage.html','_self');
+    }
     
   });
   
